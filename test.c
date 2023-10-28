@@ -1,9 +1,14 @@
-#!/bin/bash
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+void mystFunc(void);
 
+int main()
+{
+	mystFunc();
+	return (0);
+}
 void mystFunc(void)
 {
 	size_t num = 0;
@@ -30,5 +35,5 @@ void mystFunc(void)
 
 	printf("TokenString %s\n", token);
 
-	return (0);
+	return ;
 }
