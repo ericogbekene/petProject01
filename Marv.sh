@@ -1,5 +1,5 @@
 #!/bin/bash
 
-gcc -o test test.c
+gcc test.c -o newTest
 
-./Marv
+./newTest

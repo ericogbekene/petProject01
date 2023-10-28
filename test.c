@@ -4,7 +4,7 @@
 
 void mystFunc(void);
 
-int main()
+int main(void)
 {
 	mystFunc();
 	return (0);
@@ -35,5 +35,5 @@ void mystFunc(void)
 
 	printf("TokenString %s\n", token);
 
-	return ;
+	/*return ;*/
 }
