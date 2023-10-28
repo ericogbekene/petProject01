@@ -1,9 +1,15 @@
-#!/bin/bash
+/*#!/bin/bash*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+void mystFunc (void);
 
+int main(void)
+{
+	mystFunc();
+	return (0);
+}
 void mystFunc(void)
 {
 	size_t num = 0;
